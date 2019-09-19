@@ -1,0 +1,123 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial, Helvetica, "Times New Roman", Sans-serif;
+}
+/* ====== container ======= */
+.container{
+	width:90%;
+	margin:0 auto;
+	background: url(../images/floor.jpg) repeat-y;
+	background-size: contain;
+	border:5px solid #4c0404;
+	line-height: 1.5;
+}
+/* ====== universal ======= */
+
+
+h1,h2,h3, p,nav a{
+	color:#4c0404;
+}
+.clearfix::after{
+	content: "";
+	display:table;
+	clear:both;
+}
+/* ====== header (logo and navigation) ======= */
+
+.logo{	
+	float:left;
+}
+header{
+  	
+	padding:10px;	
+	border-bottom:5px solid #4c0404;
+	padding-bottom: 0px;
+
+}
+header, #main-copy,#sidebar{
+	margin-left:10px; 
+	margin-right:10px;
+	background-color: #ffffff;	
+}
+
+nav{
+	float:right;
+	text-align: right;
+	margin-top:50px;
+	font-weight: bold;	
+	padding-bottom: 0px;
+}
+.current a{
+	color:#d07710;
+}
+
+nav a{
+	text-decoration: none;
+}
+nav a:hover{
+	color:#ffffff;
+	background: #4c0404;
+	padding:10px;
+	border-radius: 5px;
+}
+#main-copy a, #sidebar a{
+	color:#4c0404;
+}
+nav li{
+	
+	list-style: none;
+	padding:10px;
+	
+}
+
+/* ====== main section ======= */
+#main-copy{
+	float:left;
+	width:60%;
+	padding:10px;
+}
+
+
+/* ======villa image in main section ======= */
+#main-copy img{
+
+	width:100%;
+}
+#main-copy figure{
+	width:50%;
+	float:right;
+}
+figcaption{
+	text-align: right;
+}
+/* ====== sidebar ======= */
+h2{
+	margin-bottom: 3px;
+}
+
+#sidebar h2, #sidebar p{
+	padding-left:20px;
+	padding-right:20px;
+	
+}
+#sidebar p:last-child{
+	padding-bottom: 20px;
+}
+#sidebar{
+	float:right;
+	background: url(../images/parchment.png) no-repeat;
+	background-size: 100% 100%;
+	/*background-position: center;*/
+	width:30%;
+	text-align: center;
+}
+hr{
+	width:200px;
+	color:black;
+}
+/*#sidebar h2{
+	border-bottom:2px solid #827387;
+}*/
+
