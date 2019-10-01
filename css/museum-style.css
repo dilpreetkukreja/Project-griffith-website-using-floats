@@ -25,6 +25,9 @@ h1,h2,h3, p,nav a{
 	clear:both;
 }
 /* ====== header (logo and navigation) ======= */
+header #logo{
+	width:700px;
+}
 
 .logo{	
 	float:left;
@@ -82,7 +85,6 @@ nav li{
 
 /* ======villa image in main section ======= */
 #main-copy img{
-
 	width:100%;
 }
 #main-copy figure{
@@ -119,5 +121,15 @@ hr{
 }
 /*#sidebar h2{
 	border-bottom:2px solid #827387;
+}*/
+/*@media screen and (max-width:768px){
+	header #logo{
+		width:300px;
+	}
+}
+@media screen and (max-width:567px){
+	header #logo{
+		width:150px;
+	}
 }*/
 
